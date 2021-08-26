@@ -1,0 +1,66 @@
+
+body{
+    background-image: url("https://images.unsplash.com/photo-1629233798038-2ae5b2e96d91?ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw3OHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60");
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.6;
+}
+#heading{
+    color: wheat;
+    font-size: 3rem;
+    text-align: center;
+    font-family: 'Lobster', cursive;
+}
+
+.inp{
+    height: 45vh;
+    z-index: -1;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+.result{
+    height: 45vh;
+    z-index: -1;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: 30px;
+}
+#word{
+    background-color: wheat;
+    color: rebeccapurple;
+    font-size: 1.7rem;
+    border: none;
+}
+#correct{
+    background-color: wheat;
+    color: rebeccapurple;
+    font-size: 1.7rem;
+    border: none;
+    font-family: 'Lobster', cursive;
+}
+#btn{
+    background-color: wheat;
+    color: rebeccapurple;
+    font-size: 1.7rem;
+   
+    border: none;
+
+}
+#cross{
+    margin-right:50px ;
+    color: wheat;
+    background-color: transparent;
+    border: none;
+    font-size: 2rem;
+}
+.active{
+    display: none;
+    
+}
+
